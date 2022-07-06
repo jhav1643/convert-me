@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Convert Me </title>
+    <link rel="stylesheet" href="../css/Button.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9cbac18430.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/convertapi-js/lib/convertapi.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <p class="head">CONVERT ME</p>
+        <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="#footer" target="new">About Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary" style="margin-bottom: 29px;">JPG TO PDF</h1>
+
+        <div>
+            <p>
+                <label for="fileInput" style="margin-left:2%">Select image to convert it to PDF.</label>
+                <button class="btn" >
+                    <input id="fileInput" type="file"
+                    accept="image/*"/> 
+                    Upload
+                </button>
+            </p>
+
+        </div>
+        <p id="result">
+            <button class="btn"> <a id="resultLink" href=""></a></button>
+        </p>
+        <script src="../ButtonJS/imageToPdf.js"></script>
+    </section>
+
+    <section id="footer">
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+                <h3>Convert<span>ME</span></h3>
+
+                <p class="footer-links">
+                    <a href="#">Home</a>
+                    |
+                    <a href="#">About</a>
+                    |
+                    <a href="#">Contact</a>
+                    |
+                    <a href="#">Blog</a>
+                </p>
+
+                <p class="footer-company-name">Copyright © 2022 <strong>Convert ME</strong> All rights reserved</p>
+            </div>
+
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Punjab</span>
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+91 54**9**278</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:00001.co@gmail.com">xyz@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    <strong>Convert ME</strong> A Software that converts one file type to another file type like pdf to
+                    .mp3 , pdf to docx with text utils
+                    and optimization of the file .
+
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>
